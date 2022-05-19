@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="countainer">
+        <div class="box">
+            <h1>Hey! This is a painting canvas. You can draw your masterpieces in the square on the right.</h1>
+        </div>
+        <div class="box">
+            <canvas id="can" height="300" width="300">
+            </canvas>
+        </div>
+        <div class="box">
+            <h3>Tools:</h3>
+            <label for="color">Choose brush color</label>
+            <input type="color" id="color">
+            <br>
+            <label for="vol">Choose brush width:</label>
+            <input type="range" id="vol" min="1" max="50">
+            <br>
+            <input type="button" id="clear" value="Clear">
+
+        </div>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
